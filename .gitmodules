@@ -1,0 +1,3 @@
+[submodule "redox/pcb/rev2.0/kicad-ATmega32U4"]
+	path = redox/pcb/rev2.0/kicad-ATmega32U4
+	url = https://github.com/yskoht/kicad-ATmega32U4.git
