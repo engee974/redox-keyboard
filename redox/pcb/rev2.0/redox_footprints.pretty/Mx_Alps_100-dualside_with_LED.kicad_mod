@@ -1,7 +1,7 @@
-(module Mx_Alps_100-dualside_with_LED (layer F.Cu) (tedit 5EB477B1)
+(module Mx_Alps_100-dualside_with_LED (layer F.Cu) (tedit 5EB54105)
   (descr MXALPS)
   (tags MXALPS)
-  (fp_text reference REF** (at 4 2.8) (layer F.SilkS)
+  (fp_text reference REF** (at 0.67 2.89) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_text value >VALUE (at 0 -7.493) (layer F.Fab) hide

@@ -1,4 +1,4 @@
-17430320008236873
+17435087136178110
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -78351,6 +78351,13 @@ ArduinoProMicro
 24
 24
 redox_footprints
+D_0805_dualsided
+
+
+0
+6
+2
+redox_footprints
 Diode-dual
 
 
@@ -78371,6 +78378,13 @@ HOLE_M3
 0
 1
 1
+redox_footprints
+HRO-TYPE-C-31-M-12-Assembly_1pin
+
+
+0
+16
+13
 redox_footprints
 Jumper
 
@@ -78434,6 +78448,13 @@ Through hole pin header THT 1x03 2.54mm single row
 0
 3
 3
+redox_footprints
+R_0805_dualsided
+SMT, 2012, 0805
+SMT, 2012, 0805
+0
+6
+2
 redox_footprints
 Resistor-Compact
 

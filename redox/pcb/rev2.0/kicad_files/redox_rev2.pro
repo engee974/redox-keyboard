@@ -1,4 +1,4 @@
-update=05/08/20 03:46:03
+update=05/08/20 13:46:42
 version=1
 last_client=kicad
 [general]
@@ -38,13 +38,13 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.25
+TrackWidth1=0.2
 TrackWidth2=0.25
 TrackWidth3=0.5
 ViaDiameter1=0.4
 ViaDrill1=0.3
 dPairWidth1=0.2
-dPairGap1=0.25
+dPairGap1=0.125
 dPairViaGap1=0.25
 SilkLineWidth=0.15
 SilkTextSizeV=1
@@ -240,18 +240,18 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
-TrackWidth=0.25
+TrackWidth=0.2
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
-dPairGap=0.25
+dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=+5V
 Clearance=0.2
-TrackWidth=0.5
+TrackWidth=0.3
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
@@ -262,7 +262,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=GND
 Clearance=0.2
-TrackWidth=0.4
+TrackWidth=0.3
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
@@ -273,7 +273,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=VCC
 Clearance=0.2
-TrackWidth=0.5
+TrackWidth=0.3
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
