@@ -49,7 +49,7 @@ Text GLabel 4175 1725 2    60   Input ~ 0
 col4
 Text GLabel 4175 1625 2    60   Input ~ 0
 col5
-Text GLabel 4175 1525 2    60   Input ~ 0
+Text GLabel 4175 3025 2    60   Input ~ 0
 col6
 Text GLabel 2775 2825 0    60   Input ~ 0
 row1
@@ -57,7 +57,7 @@ Text GLabel 2775 2725 0    60   Input ~ 0
 row2
 Text GLabel 2775 2525 0    60   Input ~ 0
 row4
-Text GLabel 4175 3025 2    60   Input ~ 0
+Text GLabel 4175 1525 2    60   Input ~ 0
 rgb_data
 $Comp
 L redox_rev2-rescue:GND-redox_rev1-rescue #PWR06

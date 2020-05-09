@@ -3767,4 +3767,15 @@ F 3 "" H 7250 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4725 2925 4175 2925
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 6041354B
+P 3725 7525
+F 0 "#LOGO1" H 3725 7800 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 3725 7300 50  0001 C CNN
+F 2 "" H 3725 7525 50  0001 C CNN
+F 3 "~" H 3725 7525 50  0001 C CNN
+	1    3725 7525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

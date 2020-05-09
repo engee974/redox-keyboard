@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Flight Dreamer\\Documents\\Projets\\Keyboards\\redox-keyboard\\redox\\pcb\\rev2.0\\kicad_files\\redox_rev2.sch")
-    (date "05/09/20 16:37:45")
+    (date "05/09/20 22:01:26")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
