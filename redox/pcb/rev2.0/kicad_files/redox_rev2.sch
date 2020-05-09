@@ -35,23 +35,19 @@ F 3 "" H 5000 6550 50  0001 C CNN
 	1    5000 6550
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4675 2325 2    60   Input ~ 0
+Text GLabel 4175 2325 2    60   Input ~ 0
 SCL
-Text GLabel 4675 2425 2    60   Input ~ 0
+Text GLabel 4175 2425 2    60   Input ~ 0
 SDA
-Wire Wire Line
-	4675 2425 4175 2425
-Wire Wire Line
-	4675 2325 4175 2325
 Text GLabel 4175 3325 2    60   Input ~ 0
 col0
 Text GLabel 2775 2925 0    60   Input ~ 0
 col1
 Text GLabel 4175 2025 2    60   Input ~ 0
 col3
-Text GLabel 4175 1625 2    60   Input ~ 0
+Text GLabel 4175 1725 2    60   Input ~ 0
 col4
-Text GLabel 4175 1525 2    60   Input ~ 0
+Text GLabel 4175 1625 2    60   Input ~ 0
 col5
 Text GLabel 4175 3025 2    60   Input ~ 0
 col6
@@ -61,7 +57,7 @@ Text GLabel 2775 2725 0    60   Input ~ 0
 row2
 Text GLabel 2775 2525 0    60   Input ~ 0
 row4
-Text GLabel 4175 2925 2    60   Input ~ 0
+Text GLabel 4175 1525 2    60   Input ~ 0
 rgb_data
 $Comp
 L redox_rev2-rescue:GND-redox_rev1-rescue #PWR06
@@ -1126,29 +1122,29 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5EDAEC9D
-P 4625 1725
+P 4825 2925
 AR Path="/5EAF3E37/5EDAEC9D" Ref="R?"  Part="1" 
 AR Path="/5EDAEC9D" Ref="R9"  Part="1" 
-F 0 "R9" H 4655 1745 50  0000 L CNN
-F 1 "1k" H 4655 1685 50  0000 L CNN
-F 2 "Keebio-Parts:R_0603" H 4625 1725 50  0001 C CNN
-F 3 "" H 4625 1725 50  0001 C CNN
-	1    4625 1725
+F 0 "R9" H 4855 2945 50  0000 L CNN
+F 1 "1k" H 4855 2885 50  0000 L CNN
+F 2 "Keebio-Parts:R_0603" H 4825 2925 50  0001 C CNN
+F 3 "" H 4825 2925 50  0001 C CNN
+	1    4825 2925
 	0    1    1    0   
 $EndComp
-Text GLabel 5100 1525 1    60   Input ~ 0
+Text GLabel 5300 2725 1    60   Input ~ 0
 LEDGND
 $Comp
 L power:GND #PWR?
 U 1 1 5EDAECA4
-P 5100 1925
+P 5300 3125
 AR Path="/5EAF3E37/5EDAECA4" Ref="#PWR?"  Part="1" 
 AR Path="/5EDAECA4" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 5100 1675 50  0001 C CNN
-F 1 "GND" H 5100 1775 50  0000 C CNN
-F 2 "" H 5100 1925 50  0001 C CNN
-F 3 "" H 5100 1925 50  0001 C CNN
-	1    5100 1925
+F 0 "#PWR022" H 5300 2875 50  0001 C CNN
+F 1 "GND" H 5300 2975 50  0000 C CNN
+F 2 "" H 5300 3125 50  0001 C CNN
+F 3 "" H 5300 3125 50  0001 C CNN
+	1    5300 3125
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1358,9 +1354,7 @@ Wire Wire Line
 Wire Wire Line
 	4875 3225 4775 3225
 Wire Wire Line
-	4525 1725 4175 1725
-Wire Wire Line
-	4725 1725 4800 1725
+	4925 2925 5000 2925
 Wire Wire Line
 	4375 4150 4625 4150
 Wire Wire Line
@@ -1423,14 +1417,14 @@ Wire Wire Line
 $Comp
 L Transistor_FET:2N7002 Q?
 U 1 1 5EDAED70
-P 5000 1725
+P 5200 2925
 AR Path="/5EAF3E37/5EDAED70" Ref="Q?"  Part="1" 
 AR Path="/5EDAED70" Ref="Q1"  Part="1" 
-F 0 "Q1" H 5205 1771 50  0000 L CNN
-F 1 "2N7002" H 5205 1680 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5200 1650 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5000 1725 50  0001 L CNN
-	1    5000 1725
+F 0 "Q1" H 5405 2971 50  0000 L CNN
+F 1 "2N7002" H 5405 2880 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 2850 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5200 2925 50  0001 L CNN
+	1    5200 2925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3763,12 +3757,14 @@ L power:VCC #PWR?
 U 1 1 5F2FCD0A
 P 7250 3750
 AR Path="/5EAF3E37/5F2FCD0A" Ref="#PWR?"  Part="1" 
-AR Path="/5F2FCD0A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7250 3600 50  0001 C CNN
+AR Path="/5F2FCD0A" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 7250 3600 50  0001 C CNN
 F 1 "VCC" H 7250 3900 50  0000 C CNN
 F 2 "" H 7250 3750 50  0001 C CNN
 F 3 "" H 7250 3750 50  0001 C CNN
 	1    7250 3750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4725 2925 4175 2925
 $EndSCHEMATC
