@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Redox NG keyboard"
-Date "2018-05-05"
-Rev "1.0"
+Title "Redox keyboard NG Mod"
+Date "2020-05-09"
+Rev "2.0"
 Comp ""
-Comment1 "Modified by Nicolas Grondin"
-Comment2 "designed by Mattia Dal Ben"
-Comment3 "https://github.com/mattdibi/redox-keyboard"
-Comment4 ""
+Comment1 "https://github.com/engee974/redox-keyboard"
+Comment2 "Modified by Nicolas Grondin"
+Comment3 "designed by Mattia Dal Ben"
+Comment4 "https://github.com/mattdibi/redox-keyboard"
 $EndDescr
 $Comp
 L redox_rev2-rescue:Audio-Jack-4-redox_rev1-rescue TRRS1
@@ -2005,7 +2005,7 @@ AR Path="/5EAF3E37/5EDAED8C" Ref="U?"  Part="1"
 AR Path="/5EDAED8C" Ref="U2"  Part="1" 
 F 0 "U2" H 3475 525 50  0000 C CNN
 F 1 "ATmega32U4" H 3475 3625 50  0000 C CNN
-F 2 "Keebio-Parts:QFN-44-1EP_7x7mm_Pitch0.5mm" H 3475 2225 50  0001 C CIN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias" H 3475 2225 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3475 2225 50  0001 C CNN
 	1    3475 2225
 	1    0    0    -1  

@@ -2005,7 +2005,7 @@ AR Path="/5EAF3E37/5EDAED8C" Ref="U?"  Part="1"
 AR Path="/5EDAED8C" Ref="U2"  Part="1" 
 F 0 "U2" H 3475 525 50  0000 C CNN
 F 1 "ATmega32U4" H 3475 3625 50  0000 C CNN
-F 2 "Keebio-Parts:QFN-44-1EP_7x7mm_Pitch0.5mm" H 3475 2225 50  0001 C CIN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias" H 3475 2225 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3475 2225 50  0001 C CNN
 	1    3475 2225
 	1    0    0    -1  
@@ -3770,12 +3770,12 @@ Wire Wire Line
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 6041354B
-P 3725 7525
-F 0 "#LOGO1" H 3725 7800 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 3725 7300 50  0001 C CNN
-F 2 "" H 3725 7525 50  0001 C CNN
-F 3 "~" H 3725 7525 50  0001 C CNN
-	1    3725 7525
+P 3750 7525
+F 0 "#LOGO1" H 3750 7800 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 3750 7300 50  0001 C CNN
+F 2 "" H 3750 7525 50  0001 C CNN
+F 3 "~" H 3750 7525 50  0001 C CNN
+	1    3750 7525
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
