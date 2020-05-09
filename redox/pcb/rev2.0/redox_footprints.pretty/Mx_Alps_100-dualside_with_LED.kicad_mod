@@ -1,10 +1,10 @@
-(module Mx_Alps_100-dualside_with_LED (layer F.Cu) (tedit 5EB54105)
+(module Mx_Alps_100-dualside_with_LED (layer F.Cu) (tedit 5EB63E88)
   (descr MXALPS)
   (tags MXALPS)
-  (fp_text reference REF** (at 0.67 2.89) (layer F.SilkS)
+  (fp_text reference REF** (at 1 2.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value >VALUE (at 0 -7.493) (layer F.Fab) hide
+  (fp_text value >VALUE (at 0 -8.7) (layer F.Fab) hide
     (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -56,6 +56,9 @@
   )
   (fp_text user - (at 1.27 3.5) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 1 2.85) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (pad 1 thru_hole oval (at -2.52 -4.79 3.9) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at 3.405 -3.27 29.05) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.Mask F.SilkS))
