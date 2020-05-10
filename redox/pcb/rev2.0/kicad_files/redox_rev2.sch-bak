@@ -3770,12 +3770,34 @@ Wire Wire Line
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 6041354B
-P 3725 7525
-F 0 "#LOGO1" H 3725 7800 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 3725 7300 50  0001 C CNN
-F 2 "" H 3725 7525 50  0001 C CNN
-F 3 "~" H 3725 7525 50  0001 C CNN
-	1    3725 7525
+P 3750 7525
+F 0 "#LOGO1" H 3750 7800 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 3750 7300 50  0001 C CNN
+F 2 "" H 3750 7525 50  0001 C CNN
+F 3 "~" H 3750 7525 50  0001 C CNN
+	1    3750 7525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5ED447DA
+P 5925 7150
+F 0 "H5" H 6025 7196 50  0000 L CNN
+F 1 "MountingHole" H 6025 7105 50  0000 L CNN
+F 2 "redox_footprints:HOLE_M2" H 5925 7150 50  0001 C CNN
+F 3 "~" H 5925 7150 50  0001 C CNN
+	1    5925 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5ED44D0D
+P 6100 7150
+F 0 "H6" H 6200 7196 50  0000 L CNN
+F 1 "MountingHole" H 6200 7105 50  0000 L CNN
+F 2 "redox_footprints:HOLE_M2" H 6100 7150 50  0001 C CNN
+F 3 "~" H 6100 7150 50  0001 C CNN
+	1    6100 7150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

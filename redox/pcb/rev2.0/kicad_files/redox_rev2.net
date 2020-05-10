@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Flight Dreamer\\Documents\\Projets\\Keyboards\\redox-keyboard\\redox\\pcb\\rev2.0\\kicad_files\\redox_rev2.sch")
-    (date "05/09/20 23:36:06")
+    (date "05/10/20 09:33:02")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -893,7 +893,21 @@
       (footprint Keebio-Parts:C_0603)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5EDAEC53)))
+      (tstamp 5EDAEC53))
+    (comp (ref H5)
+      (value MountingHole)
+      (footprint redox_footprints:HOLE_M2)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5ED447DA))
+    (comp (ref H6)
+      (value MountingHole)
+      (footprint redox_footprints:HOLE_M2)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5ED44D0D)))
   (libparts
     (libpart (lib ATmega32U4) (part ATMEGA32U4)
       (fields
