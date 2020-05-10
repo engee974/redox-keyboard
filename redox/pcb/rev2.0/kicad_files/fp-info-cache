@@ -1,4 +1,4 @@
-17436676620754756
+17438265796647010
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -78441,6 +78441,13 @@ CONN DEV
 0
 4
 4
+redox_footprints
+OSHW-Symbol_8.9x8mm_Copper
+Open Source Hardware Symbol
+Logo Symbol OSHW
+0
+0
+0
 redox_footprints
 OSHW-Symbol_8.9x8mm_SilkScreen
 Open Source Hardware Symbol
