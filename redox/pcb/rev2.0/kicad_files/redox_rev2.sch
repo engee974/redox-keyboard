@@ -1501,53 +1501,42 @@ Wire Wire Line
 Wire Wire Line
 	900  1350 1025 1350
 $Comp
-L Connector:AVR-ISP-6 J1
-U 1 1 5ECF58F1
-P 6050 4325
-F 0 "J1" H 5721 4421 50  0000 R CNN
-F 1 "AVR-ISP-6" H 5721 4330 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 5800 4375 50  0001 C CNN
-F 3 " ~" H 4775 3775 50  0001 C CNN
-	1    6050 4325
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5ECF6FCC
-P 5950 4725
+P 6300 4400
 AR Path="/5EAF3E37/5ECF6FCC" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF6FCC" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 5950 4475 50  0001 C CNN
-F 1 "GND" H 5950 4575 50  0000 C CNN
-F 2 "" H 5950 4725 50  0001 C CNN
-F 3 "" H 5950 4725 50  0001 C CNN
-	1    5950 4725
-	1    0    0    -1  
+F 0 "#PWR020" H 6300 4150 50  0001 C CNN
+F 1 "GND" H 6300 4250 50  0000 C CNN
+F 2 "" H 6300 4400 50  0001 C CNN
+F 3 "" H 6300 4400 50  0001 C CNN
+	1    6300 4400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5ECF83AB
-P 5950 3825
+P 6300 4200
 AR Path="/5EAF3E37/5ECF83AB" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF83AB" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 5950 3675 50  0001 C CNN
-F 1 "+5V" H 5950 3965 50  0000 C CNN
-F 2 "" H 5950 3825 50  0001 C CNN
-F 3 "" H 5950 3825 50  0001 C CNN
-	1    5950 3825
-	1    0    0    -1  
+F 0 "#PWR019" H 6300 4050 50  0001 C CNN
+F 1 "+5V" H 6300 4340 50  0000 C CNN
+F 2 "" H 6300 4200 50  0001 C CNN
+F 3 "" H 6300 4200 50  0001 C CNN
+	1    6300 4200
+	0    1    1    0   
 $EndComp
 Text GLabel 4175 1325 2    50   Input ~ 0
 MOSI
 Text GLabel 4175 1425 2    50   Input ~ 0
 MISO
-Text GLabel 6450 4225 2    50   Input ~ 0
+Text GLabel 6300 4300 2    50   Input ~ 0
 MOSI
-Text GLabel 6450 4125 2    50   Input ~ 0
+Text GLabel 5600 4200 0    50   Input ~ 0
 MISO
 Text GLabel 4175 1225 2    50   Input ~ 0
 SCK
-Text GLabel 6450 4325 2    50   Input ~ 0
+Text GLabel 5600 4300 0    50   Input ~ 0
 SCK
 Text GLabel 1800 1350 2    50   Input ~ 0
 RST
@@ -1555,7 +1544,7 @@ Wire Wire Line
 	1725 1225 1725 1350
 Wire Wire Line
 	1725 1350 1800 1350
-Text GLabel 6450 4425 2    50   Input ~ 0
+Text GLabel 5600 4400 0    50   Input ~ 0
 RST
 $Comp
 L Type-C:HRO-TYPE-C-31-M-12 USB?
@@ -3784,7 +3773,7 @@ U 1 1 5ED447DA
 P 6050 7550
 F 0 "H5" H 6150 7596 50  0000 L CNN
 F 1 "MountingHole" H 6150 7505 50  0000 L CNN
-F 2 "redox_footprints:HOLE_M2" H 6050 7550 50  0001 C CNN
+F 2 "redox_footprints:M2_HOLE_PCB" H 6050 7550 50  0001 C CNN
 F 3 "~" H 6050 7550 50  0001 C CNN
 	1    6050 7550
 	1    0    0    -1  
@@ -3795,9 +3784,20 @@ U 1 1 5ED44D0D
 P 6225 7550
 F 0 "H6" H 6325 7596 50  0000 L CNN
 F 1 "MountingHole" H 6325 7505 50  0000 L CNN
-F 2 "redox_footprints:HOLE_M2" H 6225 7550 50  0001 C CNN
+F 2 "redox_footprints:M2_HOLE_PCB" H 6225 7550 50  0001 C CNN
 F 3 "~" H 6225 7550 50  0001 C CNN
 	1    6225 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:TC2030-AVR P1
+U 1 1 5EE96AE2
+P 5950 4300
+F 0 "P1" H 5950 4592 40  0000 C CNN
+F 1 "TC2030-AVR" H 5950 4516 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5950 4300 50  0001 C CNN
+F 3 "" H 5950 4300 50  0001 C CNN
+	1    5950 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
