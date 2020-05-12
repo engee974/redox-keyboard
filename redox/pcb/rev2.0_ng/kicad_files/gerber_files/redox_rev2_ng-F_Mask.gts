@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
-G04 #@! TF.CreationDate,2020-05-12T17:07:08+04:00*
-G04 #@! TF.ProjectId,redox_rev2,7265646f-785f-4726-9576-322e6b696361,2.0 NG*
+G04 #@! TF.CreationDate,2020-05-13T01:23:10+04:00*
+G04 #@! TF.ProjectId,redox_rev2_ng,7265646f-785f-4726-9576-325f6e672e6b,2.0 NG*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-05-12 17:07:08*
+G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-05-13 01:23:10*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
