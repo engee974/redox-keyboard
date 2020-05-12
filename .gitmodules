@@ -1,0 +1,6 @@
+[submodule "redox/pcb/rev2.0_ng/Keyswitches"]
+	path = redox/pcb/rev2.0_ng/Keyswitches
+	url = https://github.com/engee974/keyswitches.pretty.git
+[submodule "redox/pcb/rev2.0_ng/kicad-ATmega32U4"]
+	path = redox/pcb/rev2.0_ng/kicad-ATmega32U4
+	url = https://github.com/engee974/kicad-ATmega32U4.git
