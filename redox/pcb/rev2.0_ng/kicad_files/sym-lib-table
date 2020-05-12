@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name AT90USB1286-AU)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/locallib.pretty/AT90USB1286-AU.lib")(options "")(descr ""))
+  (lib (name Molex-0548190589)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/Molex-0548190589.pretty/Schematic Library/Molex-0548190589.lib")(options "")(descr ""))
+  (lib (name MX_Alps_Hybrids)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids.lib")(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/Type-C.pretty/Type-C.lib")(options "")(descr ""))
+  (lib (name ai03-locallib)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/locallib.pretty/schema/ai03-locallib.lib")(options "")(descr ""))
+  (lib (name logic)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/locallib.pretty/schema/logic.lib")(options "")(descr ""))
+  (lib (name ATmega32U4)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/kicad-ATmega32U4/ATmega32U4-symbol/ATmega32U4.lib")(options "")(descr ""))
+  (lib (name redox_rev2-rescue)(type Legacy)(uri ${KIPRJMOD}/redox_rev2_ng-rescue.lib)(options "")(descr ""))
+  (lib (name keebio)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/KiCAD/keebio-components/keebio.lib")(options "")(descr ""))
+  (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/KiCAD/KiCad-SSD1306_OLED-0.91-128x32/SSD1306_OLED-0.91-128x32.lib")(options "")(descr ""))
+  (lib (name ssd1306-oled)(type Legacy)(uri "C:/Users/Flight Dreamer/Documents/KiCAD/ssd1306-oled.lib")(options "")(descr ""))
+)
