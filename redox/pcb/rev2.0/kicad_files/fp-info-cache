@@ -1,4 +1,4 @@
-17443248162668230
+17444837751681192
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -78581,6 +78581,13 @@ MXALPS
 0
 4
 2
+redox_footprints
+Mx_Alps_150-dualsided_with_LED
+MXALPS
+MXALPS
+0
+6
+4
 redox_footprints
 OLED_4Pin
 Connecteur 6 pins

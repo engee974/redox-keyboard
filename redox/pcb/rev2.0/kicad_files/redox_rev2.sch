@@ -5,34 +5,34 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Redox keyboard NG Mod"
-Date "2020-05-09"
-Rev "2.0"
+Date "2020-05-12"
+Rev "2.0 NG"
 Comp ""
-Comment1 "https://github.com/engee974/redox-keyboard"
-Comment2 "Modified by Nicolas Grondin"
+Comment1 "Modified by Nicolas Grondin"
+Comment2 "https://github.com/engee974/redox-keyboard"
 Comment3 "designed by Mattia Dal Ben"
 Comment4 "https://github.com/mattdibi/redox-keyboard"
 $EndDescr
 $Comp
 L redox_rev2-rescue:Audio-Jack-4-redox_rev1-rescue TRRS1
 U 1 1 5A8087E2
-P 2975 6375
-F 0 "TRRS1" H 2925 6455 50  0000 C CNN
-F 1 "Audio-Jack-4" H 3095 6005 50  0000 C CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A-dual" H 3225 6475 50  0001 C CNN
-F 3 "" H 3225 6475 50  0001 C CNN
-	1    2975 6375
+P 3050 6700
+F 0 "TRRS1" H 3000 6780 50  0000 C CNN
+F 1 "Audio-Jack-4" H 3170 6330 50  0000 C CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A-dual" H 3300 6800 50  0001 C CNN
+F 3 "" H 3300 6800 50  0001 C CNN
+	1    3050 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L redox_rev2-rescue:Conn_01x03-redox_rev1-rescue RGB_STRIP1
 U 1 1 5A8088A7
-P 5000 6550
-F 0 "RGB_STRIP1" H 5000 6750 50  0000 C CNN
-F 1 "Conn_01x03" H 5000 6350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5000 6550 50  0001 C CNN
-F 3 "" H 5000 6550 50  0001 C CNN
-	1    5000 6550
+P 4425 6125
+F 0 "RGB_STRIP1" H 4425 6325 50  0000 C CNN
+F 1 "Conn_01x03" H 4425 5925 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4425 6125 50  0001 C CNN
+F 3 "" H 4425 6125 50  0001 C CNN
+	1    4425 6125
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4175 2325 2    60   Input ~ 0
@@ -62,37 +62,37 @@ rgb_data
 $Comp
 L redox_rev2-rescue:GND-redox_rev1-rescue #PWR06
 U 1 1 5A808DAF
-P 2775 6775
-F 0 "#PWR06" H 2775 6525 50  0001 C CNN
-F 1 "GND" H 2775 6625 50  0000 C CNN
-F 2 "" H 2775 6775 50  0001 C CNN
-F 3 "" H 2775 6775 50  0001 C CNN
-	1    2775 6775
+P 2850 7100
+F 0 "#PWR06" H 2850 6850 50  0001 C CNN
+F 1 "GND" H 2850 6950 50  0000 C CNN
+F 2 "" H 2850 7100 50  0001 C CNN
+F 3 "" H 2850 7100 50  0001 C CNN
+	1    2850 7100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3725 6375 2    60   Input ~ 0
+Text GLabel 3800 6700 2    60   Input ~ 0
 SDA
-Text GLabel 3725 6475 2    60   Input ~ 0
+Text GLabel 3800 6800 2    60   Input ~ 0
 SCL
 Wire Wire Line
-	3175 6375 3325 6375
+	3250 6700 3400 6700
 Wire Wire Line
-	3175 6475 3575 6475
+	3250 6800 3650 6800
 $Comp
 L redox_rev2-rescue:GND-redox_rev1-rescue #PWR08
 U 1 1 5A808EA3
-P 5200 6650
-F 0 "#PWR08" H 5200 6400 50  0001 C CNN
-F 1 "GND" V 5200 6475 50  0000 C CNN
-F 2 "" H 5200 6650 50  0001 C CNN
-F 3 "" H 5200 6650 50  0001 C CNN
-	1    5200 6650
+P 4625 6225
+F 0 "#PWR08" H 4625 5975 50  0001 C CNN
+F 1 "GND" V 4625 6050 50  0000 C CNN
+F 2 "" H 4625 6225 50  0001 C CNN
+F 3 "" H 4625 6225 50  0001 C CNN
+	1    4625 6225
 	0    -1   1    0   
 $EndComp
-Text GLabel 5450 6550 2    60   Input ~ 0
+Text GLabel 4875 6125 2    60   Input ~ 0
 rgb_data
 Wire Wire Line
-	5450 6550 5200 6550
+	4875 6125 4625 6125
 $Comp
 L redox_rev2-rescue:D-redox_rev1-rescue D1
 U 1 1 5A808D18
@@ -402,7 +402,7 @@ U 1 1 5A809C6B
 P 10800 1500
 F 0 "K32" H 10750 1500 60  0000 C CNN
 F 1 "KEYSW" H 10800 1400 60  0001 C CNN
-F 2 "redox_footprints:Mx_Alps_125-dualside_with_LED" H 10800 1500 60  0001 C CNN
+F 2 "redox_footprints:Mx_Alps_150-dualsided_with_LED" H 10800 1500 60  0001 C CNN
 F 3 "" H 10800 1500 60  0000 C CNN
 	1    10800 1500
 	1    0    0    -1  
@@ -888,7 +888,7 @@ U 1 1 5A80E4D4
 P 10175 3000
 F 0 "K30" H 10125 3000 60  0000 C CNN
 F 1 "KEYSW" H 10175 2900 60  0001 C CNN
-F 2 "redox_footprints:Mx_Alps_125-dualside_with_LED" H 10175 3000 60  0001 C CNN
+F 2 "redox_footprints:Mx_Alps_150-dualsided_with_LED" H 10175 3000 60  0001 C CNN
 F 3 "" H 10175 3000 60  0000 C CNN
 	1    10175 3000
 	1    0    0    -1  
@@ -912,7 +912,7 @@ U 1 1 5A80E4E1
 P 10800 3000
 F 0 "K35" H 10750 3000 60  0000 C CNN
 F 1 "KEYSW" H 10800 2900 60  0001 C CNN
-F 2 "redox_footprints:Mx_Alps_125-dualside_with_LED" H 10800 3000 60  0001 C CNN
+F 2 "redox_footprints:Mx_Alps_150-dualsided_with_LED" H 10800 3000 60  0001 C CNN
 F 3 "" H 10800 3000 60  0000 C CNN
 	1    10800 3000
 	1    0    0    -1  
@@ -959,43 +959,43 @@ col6
 $Comp
 L redox_rev2-rescue:R-redox_rev1-rescue R5
 U 1 1 5A80A2DF
-P 3325 6525
-F 0 "R5" V 3405 6525 50  0000 C CNN
-F 1 "4.7k" V 3325 6525 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Compact" V 3255 6525 50  0001 C CNN
-F 3 "" H 3325 6525 50  0001 C CNN
-	1    3325 6525
+P 3400 6850
+F 0 "R5" V 3480 6850 50  0000 C CNN
+F 1 "4.7k" V 3400 6850 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Compact" V 3330 6850 50  0001 C CNN
+F 3 "" H 3400 6850 50  0001 C CNN
+	1    3400 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L redox_rev2-rescue:R-redox_rev1-rescue R6
 U 1 1 5A80A522
-P 3575 6625
-F 0 "R6" V 3655 6625 50  0000 C CNN
-F 1 "4.7k" V 3575 6625 50  0000 C CNN
-F 2 "Keebio-Parts:Resistor-Compact" V 3505 6625 50  0001 C CNN
-F 3 "" H 3575 6625 50  0001 C CNN
-	1    3575 6625
+P 3650 6950
+F 0 "R6" V 3730 6950 50  0000 C CNN
+F 1 "4.7k" V 3650 6950 50  0000 C CNN
+F 2 "Keebio-Parts:Resistor-Compact" V 3580 6950 50  0001 C CNN
+F 3 "" H 3650 6950 50  0001 C CNN
+	1    3650 6950
 	1    0    0    -1  
 $EndComp
-Connection ~ 3325 6375
-Connection ~ 3575 6475
+Connection ~ 3400 6700
+Connection ~ 3650 6800
 Wire Wire Line
-	3175 6575 3175 6775
+	3250 6900 3250 7100
 Wire Wire Line
-	3175 6775 3325 6775
+	3250 7100 3400 7100
 Wire Wire Line
-	3325 6675 3325 6775
-Connection ~ 3325 6775
-Connection ~ 3575 6775
+	3400 7000 3400 7100
+Connection ~ 3400 7100
+Connection ~ 3650 7100
 Wire Wire Line
-	3325 6375 3725 6375
+	3400 6700 3800 6700
 Wire Wire Line
-	3575 6475 3725 6475
+	3650 6800 3800 6800
 Wire Wire Line
-	3325 6775 3575 6775
+	3400 7100 3650 7100
 Wire Wire Line
-	3575 6775 3725 6775
+	3650 7100 3800 7100
 Text GLabel 10050 3900 1    60   Input ~ 0
 LEDGND
 Text GLabel 2775 1825 0    60   Input ~ 0
@@ -1016,19 +1016,6 @@ F 3 "" H 1725 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5EDAEC67
-P 1725 1025
-AR Path="/5EAF3E37/5EDAEC67" Ref="#PWR?"  Part="1" 
-AR Path="/5EDAEC67" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 1725 875 50  0001 C CNN
-F 1 "+5V" H 1725 1165 50  0000 C CNN
-F 2 "" H 1725 1025 50  0001 C CNN
-F 3 "" H 1725 1025 50  0001 C CNN
-	1    1725 1025
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5EDAEC73
 P 900 1350
@@ -1044,54 +1031,54 @@ $EndComp
 $Comp
 L Device:Crystal_GND24 Y?
 U 1 1 5EDAEC79
-P 1325 3250
+P 1475 3400
 AR Path="/5EAF3E37/5EDAEC79" Ref="Y?"  Part="1" 
 AR Path="/5EDAEC79" Ref="Y1"  Part="1" 
-F 0 "Y1" V 1475 3325 50  0000 L CNN
-F 1 "16Mhz" V 1150 3375 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1325 3250 50  0001 C CNN
-F 3 "" H 1325 3250 50  0001 C CNN
-	1    1325 3250
+F 0 "Y1" V 1675 3275 50  0000 L CNN
+F 1 "16Mhz" V 1775 3275 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1475 3400 50  0001 C CNN
+F 3 "" H 1475 3400 50  0001 C CNN
+	1    1475 3400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5EDAEC7F
-P 975 3100
+P 1125 3250
 AR Path="/5EAF3E37/5EDAEC7F" Ref="C?"  Part="1" 
 AR Path="/5EDAEC7F" Ref="C1"  Part="1" 
-F 0 "C1" H 985 3170 50  0000 L CNN
-F 1 "22pF" H 985 3020 50  0000 L CNN
-F 2 "Keebio-Parts:C_0603" H 975 3100 50  0001 C CNN
-F 3 "" H 975 3100 50  0001 C CNN
-	1    975  3100
+F 0 "C1" H 1135 3320 50  0000 L CNN
+F 1 "22pF" H 1135 3170 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 1125 3250 50  0001 C CNN
+F 3 "" H 1125 3250 50  0001 C CNN
+	1    1125 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5EDAEC85
-P 975 3400
+P 1125 3550
 AR Path="/5EAF3E37/5EDAEC85" Ref="C?"  Part="1" 
 AR Path="/5EDAEC85" Ref="C2"  Part="1" 
-F 0 "C2" H 985 3470 50  0000 L CNN
-F 1 "22pF" H 985 3320 50  0000 L CNN
-F 2 "Keebio-Parts:C_0603" H 975 3400 50  0001 C CNN
-F 3 "" H 975 3400 50  0001 C CNN
-	1    975  3400
+F 0 "C2" H 1135 3620 50  0000 L CNN
+F 1 "22pF" H 1135 3470 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 1125 3550 50  0001 C CNN
+F 3 "" H 1125 3550 50  0001 C CNN
+	1    1125 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EDAEC8B
-P 1125 3775
+P 1675 3400
 AR Path="/5EAF3E37/5EDAEC8B" Ref="#PWR?"  Part="1" 
 AR Path="/5EDAEC8B" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 1125 3525 50  0001 C CNN
-F 1 "GND" H 1125 3625 50  0000 C CNN
-F 2 "" H 1125 3775 50  0001 C CNN
-F 3 "" H 1125 3775 50  0001 C CNN
-	1    1125 3775
-	1    0    0    -1  
+F 0 "#PWR011" H 1675 3150 50  0001 C CNN
+F 1 "GND" V 1675 3200 50  0000 C CNN
+F 2 "" H 1675 3400 50  0001 C CNN
+F 3 "" H 1675 3400 50  0001 C CNN
+	1    1675 3400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R?
@@ -1189,27 +1176,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EDAECBC
-P 4625 4650
+P 4625 4550
 AR Path="/5EAF3E37/5EDAECBC" Ref="#PWR?"  Part="1" 
 AR Path="/5EDAECBC" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 4625 4400 50  0001 C CNN
-F 1 "GND" H 4625 4500 50  0000 C CNN
-F 2 "" H 4625 4650 50  0001 C CNN
-F 3 "" H 4625 4650 50  0001 C CNN
-	1    4625 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5EDAECC2
-P 4625 4050
-AR Path="/5EAF3E37/5EDAECC2" Ref="#PWR?"  Part="1" 
-AR Path="/5EDAECC2" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 4625 3900 50  0001 C CNN
-F 1 "+5V" H 4625 4190 50  0000 C CNN
-F 2 "" H 4625 4050 50  0001 C CNN
-F 3 "" H 4625 4050 50  0001 C CNN
-	1    4625 4050
+F 0 "#PWR015" H 4625 4300 50  0001 C CNN
+F 1 "GND" H 4625 4400 50  0000 C CNN
+F 2 "" H 4625 4550 50  0001 C CNN
+F 3 "" H 4625 4550 50  0001 C CNN
+	1    4625 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1239,29 +1213,16 @@ F 3 "" H 2375 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5EDAECD4
+L power:VCC #PWR?
+U 1 1 5EDAECDA
 P 2675 4550
-AR Path="/5EAF3E37/5EDAECD4" Ref="#PWR?"  Part="1" 
-AR Path="/5EDAECD4" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 2675 4400 50  0001 C CNN
-F 1 "+5V" H 2675 4690 50  0000 C CNN
+AR Path="/5EAF3E37/5EDAECDA" Ref="#PWR?"  Part="1" 
+AR Path="/5EDAECDA" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2675 4400 50  0001 C CNN
+F 1 "VCC" H 2675 4700 50  0000 C CNN
 F 2 "" H 2675 4550 50  0001 C CNN
 F 3 "" H 2675 4550 50  0001 C CNN
 	1    2675 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5EDAECDA
-P 2125 4550
-AR Path="/5EAF3E37/5EDAECDA" Ref="#PWR?"  Part="1" 
-AR Path="/5EDAECDA" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 2125 4400 50  0001 C CNN
-F 1 "VCC" H 2125 4700 50  0000 C CNN
-F 2 "" H 2125 4550 50  0001 C CNN
-F 3 "" H 2125 4550 50  0001 C CNN
-	1    2125 4550
 	1    0    0    -1  
 $EndComp
 Text GLabel 3875 5050 2    60   Input ~ 0
@@ -1334,21 +1295,13 @@ F 3 "" H 2550 5975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1075 3100 1325 3100
+	1225 3250 1475 3250
 Wire Wire Line
-	725  3725 1125 3725
+	1025 3250 875  3250
 Wire Wire Line
-	1125 3250 1125 3725
-Connection ~ 1325 3100
-Connection ~ 1325 3400
+	875  3250 875  3400
 Wire Wire Line
-	875  3100 725  3100
-Wire Wire Line
-	725  3100 725  3400
-Wire Wire Line
-	725  3400 875  3400
-Connection ~ 725  3400
-Connection ~ 1125 3725
+	875  3550 1025 3550
 Wire Wire Line
 	4575 3225 4175 3225
 Wire Wire Line
@@ -1357,8 +1310,6 @@ Wire Wire Line
 	4925 2925 5000 2925
 Wire Wire Line
 	4375 4150 4625 4150
-Wire Wire Line
-	4625 4050 4625 4150
 Wire Wire Line
 	4625 4150 4625 4250
 Wire Wire Line
@@ -1395,17 +1346,9 @@ Wire Wire Line
 Wire Wire Line
 	2550 5725 2550 5975
 Wire Wire Line
-	1325 3400 1075 3400
-Wire Wire Line
-	725  3400 725  3725
-Wire Wire Line
-	1125 3725 1525 3725
-Wire Wire Line
-	1125 3725 1125 3775
+	1475 3550 1225 3550
 Wire Wire Line
 	4875 4150 4875 4250
-Wire Wire Line
-	4625 4550 4625 4650
 Wire Wire Line
 	4625 4150 4875 4150
 Wire Wire Line
@@ -1503,40 +1446,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5ECF6FCC
-P 6300 4400
+P 5675 7050
 AR Path="/5EAF3E37/5ECF6FCC" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF6FCC" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 6300 4150 50  0001 C CNN
-F 1 "GND" H 6300 4250 50  0000 C CNN
-F 2 "" H 6300 4400 50  0001 C CNN
-F 3 "" H 6300 4400 50  0001 C CNN
-	1    6300 4400
+F 0 "#PWR020" H 5675 6800 50  0001 C CNN
+F 1 "GND" V 5675 6875 50  0000 C CNN
+F 2 "" H 5675 7050 50  0001 C CNN
+F 3 "" H 5675 7050 50  0001 C CNN
+	1    5675 7050
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5ECF83AB
-P 6300 4200
-AR Path="/5EAF3E37/5ECF83AB" Ref="#PWR?"  Part="1" 
-AR Path="/5ECF83AB" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 6300 4050 50  0001 C CNN
-F 1 "+5V" H 6300 4340 50  0000 C CNN
-F 2 "" H 6300 4200 50  0001 C CNN
-F 3 "" H 6300 4200 50  0001 C CNN
-	1    6300 4200
-	0    1    1    0   
 $EndComp
 Text GLabel 4175 1325 2    50   Input ~ 0
 MOSI
 Text GLabel 4175 1425 2    50   Input ~ 0
 MISO
-Text GLabel 6300 4300 2    50   Input ~ 0
+Text GLabel 5675 6950 2    50   Input ~ 0
 MOSI
-Text GLabel 5600 4200 0    50   Input ~ 0
+Text GLabel 4975 6850 0    50   Input ~ 0
 MISO
 Text GLabel 4175 1225 2    50   Input ~ 0
 SCK
-Text GLabel 5600 4300 0    50   Input ~ 0
+Text GLabel 4975 6950 0    50   Input ~ 0
 SCK
 Text GLabel 1800 1350 2    50   Input ~ 0
 RST
@@ -1544,7 +1474,7 @@ Wire Wire Line
 	1725 1225 1725 1350
 Wire Wire Line
 	1725 1350 1800 1350
-Text GLabel 5600 4400 0    50   Input ~ 0
+Text GLabel 4975 7050 0    50   Input ~ 0
 RST
 $Comp
 L Type-C:HRO-TYPE-C-31-M-12 USB?
@@ -1597,46 +1527,46 @@ NoConn ~ 1250 4650
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EB1BFE2
-P 5100 7550
-F 0 "H1" H 5200 7596 50  0000 L CNN
-F 1 "MountingHole" H 5200 7505 50  0000 L CNN
-F 2 "redox_footprints:HOLE_M3" H 5100 7550 50  0001 C CNN
-F 3 "~" H 5100 7550 50  0001 C CNN
-	1    5100 7550
-	1    0    0    -1  
+P 3250 7550
+F 0 "H1" H 3350 7596 50  0000 L CNN
+F 1 "MountingHole" H 3000 7725 50  0000 L CNN
+F 2 "redox_footprints:HOLE_M3" H 3250 7550 50  0001 C CNN
+F 3 "~" H 3250 7550 50  0001 C CNN
+	1    3250 7550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5EB1C731
-P 5275 7550
-F 0 "H2" H 5375 7596 50  0000 L CNN
-F 1 "MountingHole" H 5375 7505 50  0000 L CNN
-F 2 "redox_footprints:HOLE_M3" H 5275 7550 50  0001 C CNN
-F 3 "~" H 5275 7550 50  0001 C CNN
-	1    5275 7550
+P 3775 7550
+F 0 "H2" H 3575 7500 50  0000 L CNN
+F 1 "MountingHole" H 3525 7375 50  0000 L CNN
+F 2 "redox_footprints:HOLE_M3" H 3775 7550 50  0001 C CNN
+F 3 "~" H 3775 7550 50  0001 C CNN
+	1    3775 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5EB1CBBB
-P 5450 7550
-F 0 "H3" H 5550 7596 50  0000 L CNN
-F 1 "MountingHole" H 5550 7505 50  0000 L CNN
-F 2 "redox_footprints:HOLE_M3" H 5450 7550 50  0001 C CNN
-F 3 "~" H 5450 7550 50  0001 C CNN
-	1    5450 7550
-	1    0    0    -1  
+P 4300 7550
+F 0 "H3" H 4400 7596 50  0000 L CNN
+F 1 "MountingHole" H 4050 7725 50  0000 L CNN
+F 2 "redox_footprints:HOLE_M3" H 4300 7550 50  0001 C CNN
+F 3 "~" H 4300 7550 50  0001 C CNN
+	1    4300 7550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5EB1D004
-P 5625 7550
-F 0 "H4" H 5725 7596 50  0000 L CNN
-F 1 "MountingHole" H 5725 7505 50  0000 L CNN
-F 2 "redox_footprints:HOLE_M3" H 5625 7550 50  0001 C CNN
-F 3 "~" H 5625 7550 50  0001 C CNN
-	1    5625 7550
-	1    0    0    -1  
+P 4825 7550
+F 0 "H4" H 4925 7596 50  0000 L CNN
+F 1 "MountingHole" H 4575 7725 50  0000 L CNN
+F 2 "redox_footprints:HOLE_M3" H 4825 7550 50  0001 C CNN
+F 3 "~" H 4825 7550 50  0001 C CNN
+	1    4825 7550
+	-1   0    0    1   
 $EndComp
 Text GLabel 2775 2625 0    60   Input ~ 0
 row3
@@ -1984,8 +1914,6 @@ Wire Wire Line
 Connection ~ 11050 2500
 Wire Wire Line
 	11050 875  11050 1000
-Wire Wire Line
-	1325 3100 1325 3075
 $Comp
 L ATmega32U4:ATMEGA32U4 U?
 U 1 1 5EDAED8C
@@ -2002,86 +1930,73 @@ $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5F6EB561
-P 3725 6775
+P 3800 7100
 AR Path="/5EAF3E37/5F6EB561" Ref="#PWR?"  Part="1" 
 AR Path="/5F6EB561" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 3725 6625 50  0001 C CNN
-F 1 "VCC" V 3725 6975 50  0000 C CNN
-F 2 "" H 3725 6775 50  0001 C CNN
-F 3 "" H 3725 6775 50  0001 C CNN
-	1    3725 6775
+F 0 "#PWR0101" H 3800 6950 50  0001 C CNN
+F 1 "VCC" V 3800 7300 50  0000 C CNN
+F 2 "" H 3800 7100 50  0001 C CNN
+F 3 "" H 3800 7100 50  0001 C CNN
+	1    3800 7100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F8050DA
-P 4225 7525
-F 0 "#FLG0101" H 4225 7600 50  0001 C CNN
-F 1 "PWR_FLAG" H 4225 7698 50  0000 C CNN
-F 2 "" H 4225 7525 50  0001 C CNN
-F 3 "~" H 4225 7525 50  0001 C CNN
-	1    4225 7525
+P 1150 7575
+F 0 "#FLG0101" H 1150 7650 50  0001 C CNN
+F 1 "PWR_FLAG" H 1150 7748 50  0000 C CNN
+F 2 "" H 1150 7575 50  0001 C CNN
+F 3 "~" H 1150 7575 50  0001 C CNN
+	1    1150 7575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5F805F05
-P 4500 7525
-F 0 "#FLG0102" H 4500 7600 50  0001 C CNN
-F 1 "PWR_FLAG" H 4500 7698 50  0000 C CNN
-F 2 "" H 4500 7525 50  0001 C CNN
-F 3 "~" H 4500 7525 50  0001 C CNN
-	1    4500 7525
+P 1450 7575
+F 0 "#FLG0102" H 1450 7650 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 7748 50  0000 C CNN
+F 2 "" H 1450 7575 50  0001 C CNN
+F 3 "~" H 1450 7575 50  0001 C CNN
+	1    1450 7575
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5F807001
-P 4775 7525
-F 0 "#FLG0103" H 4775 7600 50  0001 C CNN
-F 1 "PWR_FLAG" H 4775 7698 50  0000 C CNN
-F 2 "" H 4775 7525 50  0001 C CNN
-F 3 "~" H 4775 7525 50  0001 C CNN
-	1    4775 7525
+P 825 7575
+F 0 "#FLG0103" H 825 7650 50  0001 C CNN
+F 1 "PWR_FLAG" H 825 7748 50  0000 C CNN
+F 2 "" H 825 7575 50  0001 C CNN
+F 3 "~" H 825 7575 50  0001 C CNN
+	1    825  7575
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F807F2D
-P 4225 7525
+P 1150 7575
 AR Path="/5EAF3E37/5F807F2D" Ref="#PWR?"  Part="1" 
 AR Path="/5F807F2D" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 4225 7275 50  0001 C CNN
-F 1 "GND" H 4225 7375 50  0000 C CNN
-F 2 "" H 4225 7525 50  0001 C CNN
-F 3 "" H 4225 7525 50  0001 C CNN
-	1    4225 7525
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5F808756
-P 4500 7525
-AR Path="/5EAF3E37/5F808756" Ref="#PWR?"  Part="1" 
-AR Path="/5F808756" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 4500 7375 50  0001 C CNN
-F 1 "+5V" H 4500 7665 50  0000 C CNN
-F 2 "" H 4500 7525 50  0001 C CNN
-F 3 "" H 4500 7525 50  0001 C CNN
-	1    4500 7525
+F 0 "#PWR0102" H 1150 7325 50  0001 C CNN
+F 1 "GND" H 1150 7425 50  0000 C CNN
+F 2 "" H 1150 7575 50  0001 C CNN
+F 3 "" H 1150 7575 50  0001 C CNN
+	1    1150 7575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5F846CA1
-P 4775 7525
+P 825 7575
 AR Path="/5EAF3E37/5F846CA1" Ref="#PWR?"  Part="1" 
 AR Path="/5F846CA1" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 4775 7375 50  0001 C CNN
-F 1 "VCC" H 4775 7675 50  0000 C CNN
-F 2 "" H 4775 7525 50  0001 C CNN
-F 3 "" H 4775 7525 50  0001 C CNN
-	1    4775 7525
+F 0 "#PWR0104" H 825 7425 50  0001 C CNN
+F 1 "VCC" H 825 7725 50  0000 C CNN
+F 2 "" H 825 7575 50  0001 C CNN
+F 3 "" H 825 7575 50  0001 C CNN
+	1    825  7575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2402,7 +2317,7 @@ U 2 1 5FAF0E4C
 P 9775 4450
 F 0 "K32" H 9775 4350 60  0000 C CNN
 F 1 "KEYSW" H 9775 4350 60  0001 C CNN
-F 2 "redox_footprints:Mx_Alps_125-dualside_with_LED" H 9775 4450 60  0001 C CNN
+F 2 "redox_footprints:Mx_Alps_150-dualsided_with_LED" H 9775 4450 60  0001 C CNN
 F 3 "" H 9775 4450 60  0000 C CNN
 	2    9775 4450
 	0    1    1    0   
@@ -2882,7 +2797,7 @@ U 2 1 5FB5862E
 P 9375 5925
 F 0 "K30" H 9375 5825 60  0000 C CNN
 F 1 "KEYSW" H 9375 5825 60  0001 C CNN
-F 2 "redox_footprints:Mx_Alps_125-dualside_with_LED" H 9375 5925 60  0001 C CNN
+F 2 "redox_footprints:Mx_Alps_150-dualsided_with_LED" H 9375 5925 60  0001 C CNN
 F 3 "" H 9375 5925 60  0000 C CNN
 	2    9375 5925
 	0    1    1    0   
@@ -2906,7 +2821,7 @@ U 2 1 5FB58644
 P 9775 5925
 F 0 "K35" H 9775 5825 60  0000 C CNN
 F 1 "KEYSW" H 9775 5825 60  0001 C CNN
-F 2 "redox_footprints:Mx_Alps_125-dualside_with_LED" H 9775 5925 60  0001 C CNN
+F 2 "redox_footprints:Mx_Alps_150-dualsided_with_LED" H 9775 5925 60  0001 C CNN
 F 3 "" H 9775 5925 60  0000 C CNN
 	2    9775 5925
 	0    1    1    0   
@@ -3215,19 +3130,6 @@ F 3 "" H 1750 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 60FE97BD
-P 1750 6500
-AR Path="/5EAF3E37/60FE97BD" Ref="#PWR?"  Part="1" 
-AR Path="/60FE97BD" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 1750 6350 50  0001 C CNN
-F 1 "+5V" V 1750 6700 50  0000 C CNN
-F 2 "" H 1750 6500 50  0001 C CNN
-F 3 "" H 1750 6500 50  0001 C CNN
-	1    1750 6500
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 60FEB5AA
 P 1650 6400
@@ -3328,19 +3230,6 @@ F 3 "" H 1750 7200 50  0001 C CNN
 	1    1750 7200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 6171C282
-P 1750 7100
-AR Path="/5EAF3E37/6171C282" Ref="#PWR?"  Part="1" 
-AR Path="/6171C282" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 1750 6950 50  0001 C CNN
-F 1 "+5V" V 1750 7300 50  0000 C CNN
-F 2 "" H 1750 7100 50  0001 C CNN
-F 3 "" H 1750 7100 50  0001 C CNN
-	1    1750 7100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1550 6900 1500 6900
 Wire Wire Line
@@ -3379,19 +3268,6 @@ F 3 "" H 2125 2500 50  0001 C CNN
 $EndComp
 Text GLabel 2775 2025 0    50   Input ~ 0
 RST
-$Comp
-L power:VCC #PWR?
-U 1 1 5F180298
-P 2775 2325
-AR Path="/5EAF3E37/5F180298" Ref="#PWR?"  Part="1" 
-AR Path="/5F180298" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 2775 2175 50  0001 C CNN
-F 1 "VCC" H 2775 2475 50  0000 C CNN
-F 2 "" H 2775 2325 50  0001 C CNN
-F 3 "" H 2775 2325 50  0001 C CNN
-	1    2775 2325
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2725 975  2725 1125
 Wire Wire Line
@@ -3402,22 +3278,13 @@ Connection ~ 2725 1425
 Wire Wire Line
 	2725 1425 2725 1525
 Wire Wire Line
-	2775 1325 2725 1325
-Connection ~ 2725 1325
-Wire Wire Line
-	2725 1325 2725 1425
-Wire Wire Line
 	2775 1225 2725 1225
 Connection ~ 2725 1225
-Wire Wire Line
-	2725 1225 2725 1325
 Wire Wire Line
 	2775 1125 2725 1125
 Connection ~ 2725 1125
 Wire Wire Line
 	2725 1125 2725 1225
-Wire Wire Line
-	1525 3250 1525 3725
 Wire Wire Line
 	2225 1925 2775 1925
 $Comp
@@ -3432,19 +3299,6 @@ F 2 "" H 1825 1925 50  0001 C CNN
 F 3 "" H 1825 1925 50  0001 C CNN
 	1    1825 1925
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F4514C0
-P 2700 3900
-AR Path="/5EAF3E37/5F4514C0" Ref="#PWR?"  Part="1" 
-AR Path="/5F4514C0" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 2700 3650 50  0001 C CNN
-F 1 "GND" H 2700 3750 50  0000 C CNN
-F 2 "" H 2700 3900 50  0001 C CNN
-F 3 "" H 2700 3900 50  0001 C CNN
-	1    2700 3900
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2700 3900 2700 3625
@@ -3474,29 +3328,14 @@ Wire Wire Line
 	4375 4150 4375 4200
 Wire Wire Line
 	4375 4500 4375 4550
-$Comp
-L power:+5V #PWR?
-U 1 1 5F8CA0B8
-P 2725 975
-AR Path="/5EAF3E37/5F8CA0B8" Ref="#PWR?"  Part="1" 
-AR Path="/5F8CA0B8" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 2725 825 50  0001 C CNN
-F 1 "+5V" H 2740 1148 50  0000 C CNN
-F 2 "" H 2725 975 50  0001 C CNN
-F 3 "" H 2725 975 50  0001 C CNN
-	1    2725 975 
-	1    0    0    -1  
-$EndComp
-Text GLabel 1325 3075 1    50   Input ~ 0
+Text GLabel 1900 3250 2    50   Input ~ 0
 XTAL1
 Text GLabel 2775 2125 0    50   Input ~ 0
 XTAL1
 Text GLabel 4175 3525 2    50   Input ~ 0
 XTAL2
-Text GLabel 1325 3425 3    50   Input ~ 0
+Text GLabel 1900 3550 2    50   Input ~ 0
 XTAL2
-Wire Wire Line
-	1325 3400 1325 3425
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 603F8346
@@ -3727,19 +3566,6 @@ Wire Wire Line
 Connection ~ 1700 5650
 Wire Wire Line
 	1250 5650 1700 5650
-$Comp
-L power:VCC #PWR?
-U 1 1 5EEC970A
-P 5200 6450
-AR Path="/5EAF3E37/5EEC970A" Ref="#PWR?"  Part="1" 
-AR Path="/5EEC970A" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 5200 6300 50  0001 C CNN
-F 1 "VCC" V 5200 6625 50  0000 C CNN
-F 2 "" H 5200 6450 50  0001 C CNN
-F 3 "" H 5200 6450 50  0001 C CNN
-	1    5200 6450
-	0    1    1    0   
-$EndComp
 NoConn ~ 4175 1825
 $Comp
 L power:VCC #PWR?
@@ -3770,34 +3596,237 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5ED447DA
-P 6050 7550
-F 0 "H5" H 6150 7596 50  0000 L CNN
-F 1 "MountingHole" H 6150 7505 50  0000 L CNN
-F 2 "redox_footprints:M2_HOLE_PCB" H 6050 7550 50  0001 C CNN
-F 3 "~" H 6050 7550 50  0001 C CNN
-	1    6050 7550
-	1    0    0    -1  
+P 5675 7550
+F 0 "H5" H 5775 7596 50  0000 L CNN
+F 1 "MountingHole" H 5425 7725 50  0000 L CNN
+F 2 "redox_footprints:M2_HOLE_PCB" H 5675 7550 50  0001 C CNN
+F 3 "~" H 5675 7550 50  0001 C CNN
+	1    5675 7550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5ED44D0D
 P 6225 7550
 F 0 "H6" H 6325 7596 50  0000 L CNN
-F 1 "MountingHole" H 6325 7505 50  0000 L CNN
+F 1 "MountingHole" H 5975 7725 50  0000 L CNN
 F 2 "redox_footprints:M2_HOLE_PCB" H 6225 7550 50  0001 C CNN
 F 3 "~" H 6225 7550 50  0001 C CNN
 	1    6225 7550
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keebio:TC2030-AVR P1
 U 1 1 5EE96AE2
-P 5950 4300
-F 0 "P1" H 5950 4592 40  0000 C CNN
-F 1 "TC2030-AVR" H 5950 4516 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5950 4300 50  0001 C CNN
-F 3 "" H 5950 4300 50  0001 C CNN
-	1    5950 4300
+P 5325 6950
+F 0 "P1" H 5325 7242 40  0000 C CNN
+F 1 "TC2030-AVR" H 5325 7166 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5325 6950 50  0001 C CNN
+F 3 "" H 5325 6950 50  0001 C CNN
+	1    5325 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED3DC6A
+P 875 3400
+AR Path="/5EAF3E37/5ED3DC6A" Ref="#PWR?"  Part="1" 
+AR Path="/5ED3DC6A" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 875 3150 50  0001 C CNN
+F 1 "GND" V 875 3200 50  0000 C CNN
+F 2 "" H 875 3400 50  0001 C CNN
+F 3 "" H 875 3400 50  0001 C CNN
+	1    875  3400
+	0    1    1    0   
+$EndComp
+Connection ~ 875  3400
+Wire Wire Line
+	875  3400 875  3550
+Wire Wire Line
+	1900 3250 1475 3250
+Connection ~ 1475 3250
+Wire Wire Line
+	1900 3550 1475 3550
+Connection ~ 1475 3550
+Wire Wire Line
+	1275 3400 875  3400
+$Comp
+L power:VBUS #PWR0105
+U 1 1 5F57F216
+P 2125 4550
+F 0 "#PWR0105" H 2125 4400 50  0001 C CNN
+F 1 "VBUS" H 2140 4723 50  0000 C CNN
+F 2 "" H 2125 4550 50  0001 C CNN
+F 3 "" H 2125 4550 50  0001 C CNN
+	1    2125 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0108
+U 1 1 5F57F73D
+P 1450 7575
+F 0 "#PWR0108" H 1450 7425 50  0001 C CNN
+F 1 "VBUS" H 1465 7748 50  0000 C CNN
+F 2 "" H 1450 7575 50  0001 C CNN
+F 3 "" H 1450 7575 50  0001 C CNN
+	1    1450 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F581C64
+P 1750 7100
+AR Path="/5EAF3E37/5F581C64" Ref="#PWR?"  Part="1" 
+AR Path="/5F581C64" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 1750 6950 50  0001 C CNN
+F 1 "VCC" V 1750 7300 50  0000 C CNN
+F 2 "" H 1750 7100 50  0001 C CNN
+F 3 "" H 1750 7100 50  0001 C CNN
+	1    1750 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F58227B
+P 1750 6500
+AR Path="/5EAF3E37/5F58227B" Ref="#PWR?"  Part="1" 
+AR Path="/5F58227B" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 1750 6350 50  0001 C CNN
+F 1 "VCC" V 1750 6700 50  0000 C CNN
+F 2 "" H 1750 6500 50  0001 C CNN
+F 3 "" H 1750 6500 50  0001 C CNN
+	1    1750 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F582A67
+P 5675 6850
+AR Path="/5EAF3E37/5F582A67" Ref="#PWR?"  Part="1" 
+AR Path="/5F582A67" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5675 6700 50  0001 C CNN
+F 1 "VCC" V 5675 7050 50  0000 C CNN
+F 2 "" H 5675 6850 50  0001 C CNN
+F 3 "" H 5675 6850 50  0001 C CNN
+	1    5675 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F582E97
+P 4625 6025
+AR Path="/5EAF3E37/5F582E97" Ref="#PWR?"  Part="1" 
+AR Path="/5F582E97" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4625 5875 50  0001 C CNN
+F 1 "VCC" V 4625 6225 50  0000 C CNN
+F 2 "" H 4625 6025 50  0001 C CNN
+F 3 "" H 4625 6025 50  0001 C CNN
+	1    4625 6025
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F58354B
+P 4625 4150
+AR Path="/5EAF3E37/5F58354B" Ref="#PWR?"  Part="1" 
+AR Path="/5F58354B" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 4625 4000 50  0001 C CNN
+F 1 "VCC" H 4625 4300 50  0000 C CNN
+F 2 "" H 4625 4150 50  0001 C CNN
+F 3 "" H 4625 4150 50  0001 C CNN
+	1    4625 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F583D43
+P 2725 975
+AR Path="/5EAF3E37/5F583D43" Ref="#PWR?"  Part="1" 
+AR Path="/5F583D43" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2725 825 50  0001 C CNN
+F 1 "VCC" H 2725 1125 50  0000 C CNN
+F 2 "" H 2725 975 50  0001 C CNN
+F 3 "" H 2725 975 50  0001 C CNN
+	1    2725 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5F58480E
+P 1725 1025
+AR Path="/5EAF3E37/5F58480E" Ref="#PWR?"  Part="1" 
+AR Path="/5F58480E" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 1725 875 50  0001 C CNN
+F 1 "VCC" H 1725 1175 50  0000 C CNN
+F 2 "" H 1725 1025 50  0001 C CNN
+F 3 "" H 1725 1025 50  0001 C CNN
+	1    1725 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0119
+U 1 1 5F584D34
+P 2350 1200
+F 0 "#PWR0119" H 2350 1050 50  0001 C CNN
+F 1 "VBUS" V 2365 1327 50  0000 L CNN
+F 2 "" H 2350 1200 50  0001 C CNN
+F 3 "" H 2350 1200 50  0001 C CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F6992F7
+P 2350 2425
+AR Path="/5EAF3E37/5F6992F7" Ref="C?"  Part="1" 
+AR Path="/5F6992F7" Ref="C8"  Part="1" 
+F 0 "C8" H 2360 2495 50  0000 L CNN
+F 1 "1uF" H 2360 2345 50  0000 L CNN
+F 2 "Keebio-Parts:C_0603" H 2350 2425 50  0001 C CNN
+F 3 "" H 2350 2425 50  0001 C CNN
+	1    2350 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	375  2325 375  2425
+Wire Wire Line
+	375  2725 375  2625
+Wire Wire Line
+	2775 2325 2350 2325
+Wire Wire Line
+	2350 2325 2350 1325
+Wire Wire Line
+	2725 1225 2725 1425
+Wire Wire Line
+	2775 1325 2350 1325
+Connection ~ 2350 1325
+Wire Wire Line
+	2350 1325 2350 1200
+Connection ~ 2350 2325
+$Comp
+L power:GND #PWR?
+U 1 1 5F4514C0
+P 2700 3900
+AR Path="/5EAF3E37/5F4514C0" Ref="#PWR?"  Part="1" 
+AR Path="/5F4514C0" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 2700 3650 50  0001 C CNN
+F 1 "GND" H 2700 3750 50  0000 C CNN
+F 2 "" H 2700 3900 50  0001 C CNN
+F 3 "" H 2700 3900 50  0001 C CNN
+	1    2700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE554E1
+P 2350 2525
+AR Path="/5EAF3E37/5EE554E1" Ref="#PWR?"  Part="1" 
+AR Path="/5EE554E1" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 2350 2275 50  0001 C CNN
+F 1 "GND" H 2350 2375 50  0000 C CNN
+F 2 "" H 2350 2525 50  0001 C CNN
+F 3 "" H 2350 2525 50  0001 C CNN
+	1    2350 2525
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
