@@ -1,4 +1,4 @@
-update=05/12/20 13:21:42
+update=05/13/20 21:25:04
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=redox_rev2.net
+LastNetListRead=redox_rev2_ng.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -251,9 +251,9 @@ dPairWidth=0.2
 dPairGap=0.125
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=+5V
+Name=GND
 Clearance=0.2
-TrackWidth=0.3
+TrackWidth=0.5
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
@@ -262,7 +262,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=GND
+Name=VBUS
 Clearance=0.2
 TrackWidth=0.5
 ViaDiameter=0.4
@@ -275,7 +275,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=VCC
 Clearance=0.2
-TrackWidth=0.5
+TrackWidth=0.3
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
