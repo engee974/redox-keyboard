@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name redox_ng)(type KiCad)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/case/rev2_ng/redox_ng.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name redox_footprints)(type KiCad)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/redox_footprints.pretty")(options "")(descr ""))
+  (lib (name Keyswitches)(type KiCad)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/Keyswitches")(options "")(descr ""))
+  (lib (name locallib)(type KiCad)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/locallib.pretty")(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri "C:/Users/Flight Dreamer/Documents/Projets/Keyboards/redox-keyboard/redox/pcb/rev2.0_ng/Type-C.pretty")(options "")(descr ""))
+)

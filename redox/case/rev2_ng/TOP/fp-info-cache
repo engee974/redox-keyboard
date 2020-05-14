@@ -1,4 +1,4 @@
-16988749928598622
+16944253219315379
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75256,225 +75256,29 @@ varistor SIOV
 0
 2
 2
-redox_footprints
-ArduinoProMicro
-
-
-0
-24
-24
-redox_footprints
-D_0805_dualsided
-
-
-0
-6
-2
-redox_footprints
-Diode-dual
-
-
-0
-10
-2
-redox_footprints
-Diode_SOD123
-Diode, DO-41, SOD81, Horizontal, RM 10mm,
-Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,
-0
-2
-2
-redox_footprints
-HOLE_M2
-
-
-0
-0
-0
-redox_footprints
+redox_ng
 HOLE_M2_TH
 
 
 0
 0
 0
-redox_footprints
-HOLE_M3
-
-
-0
-1
-1
-redox_footprints
-HRO-TYPE-C-31-M-12-Assembly_dualsided
-
-
-0
-28
-13
-redox_footprints
-HRO-TYPE-C-31-M-12-Assembly_pin
-
-
-0
-16
-13
-redox_footprints
-Jumper
-
-
-0
-2
-2
-redox_footprints
+redox_ng
 M2_HOLE_PCB
 
 
 0
 1
 0
-redox_footprints
-MJ-4PP-9
-
-
-0
-8
-4
-redox_footprints
-Mx_Alps_100-dualside
-MXALPS
-MXALPS
-0
-4
-2
-redox_footprints
-Mx_Alps_100-dualside_with_LED
-MXALPS
-MXALPS
-0
-6
-4
-redox_footprints
-Mx_Alps_125-dualside
-MXALPS
-MXALPS
-0
-4
-2
-redox_footprints
-Mx_Alps_125-dualside_with_LED
-MXALPS
-MXALPS
-0
-6
-4
-redox_footprints
-Mx_Alps_150-dualsided
-MXALPS
-MXALPS
-0
-4
-2
-redox_footprints
-Mx_Alps_150-dualsided_with_LED
-MXALPS
-MXALPS
-0
-6
-4
-redox_footprints
-OLED_4Pin
-Connecteur 6 pins
-CONN DEV
-0
-4
-4
-redox_footprints
-OSHW-Symbol_8.9x8mm_Copper
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-redox_footprints
-OSHW-Symbol_8.9x8mm_SilkScreen
-Open Source Hardware Symbol
-Logo Symbol OSHW
-0
-0
-0
-redox_footprints
-Pin_Header_Straight_1x03_Pitch2.54mm
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-redox_footprints
-ProMicro_rev2
-
-
-0
-48
-24
-redox_footprints
-R_0805_dualsided
-SMT, 2012, 0805
-SMT, 2012, 0805
-0
-6
-2
-redox_footprints
-Resistor-Compact
-
-
-0
-2
-2
-redox_footprints
-SW_PUSH_6mm_h4.3mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
-tact sw push 6mm
-0
-4
-2
-redox_footprints
-TACT_SWITCH_TVBP06
-
-
-0
-2
-2
-redox_footprints
-TRRS-PJ-320A-dual
-
-
-0
-5
-4
-redox_footprints
-jumper_data
-
-
-0
-3
-2
-redox_footprints
-jumper_smd_2dub
-
-
-0
-2
-2
-redox_footprints
-qmk-badge
+redox_ng
+MX_Switch_Cutout
 
 
 0
 0
 0
-redox_footprints
-redox-logo
+redox_ng
+redox_logo
 
 
 0
